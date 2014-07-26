@@ -1,0 +1,21 @@
+{
+    "name": "cfind",
+    "main": "lib/index.js",
+    "description": "Find (and replace) code in a workspace",
+    "version": "0.0.0",
+    "author": "Samy Pesse <samypesse@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CodeboxIDE/cfind.git"
+    },
+    "dependencies": {
+        "q": "1.0.1",
+        "lodash": "2.4.1"
+    },
+    "devDependencies": {
+        "mocha": "1.18.2"
+    },
+    "scripts": {
+        "test": "export TESTING=true; mocha --reporter list"
+    }
+}
