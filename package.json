@@ -9,8 +9,7 @@
         "url": "https://github.com/CodeboxIDE/cfind.git"
     },
     "dependencies": {
-        "lodash": "2.4.1",
-        "glob": "4.0.4"
+        "lodash": "2.4.1"
     },
     "devDependencies": {
         "mocha": "1.18.2"
