@@ -12,4 +12,15 @@ describe('Find files', function() {
             done(result.matches == 1? null : new Error(""));
         });
     });
+
+    it('supports empty queries', function(done) {
+        cfind.files({
+            query: "",
+            root: path.join(__dirname, "fixtures")
+        }, function(err, result) {
+            if (err) return done(err);
+
+            done(result.matches == 1? null : new Error(""));
+        });
+    });
 });
