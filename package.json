@@ -2,7 +2,7 @@
     "name": "cfind",
     "main": "lib/index.js",
     "description": "Find (and replace) code in a workspace",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "author": "Samy Pesse <samypesse@gmail.com>",
     "repository": {
         "type": "git",
